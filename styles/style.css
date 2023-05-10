@@ -1,0 +1,84 @@
+:root {
+  /* ### Primary */
+
+  --DarkBlue: hsl(240, 38%, 20%);
+  --GrayishBlue: hsl(240, 18%, 77%);
+  --font: "Inter", sans-serif;
+}
+.hide {
+  display: none;
+}
+* {
+  padding: 0;
+  margin: 0;
+  vertical-align: baseline;
+  list-style: none;
+  border: 0;
+  font-family: var(--font);
+}
+body {
+  padding: 4rem;
+  }
+  /* colocar box shadow no container foto */
+#image-container {
+  /* background-image: url(/images/image-tanya.jpg); */
+  /* background-size: cover; */
+  width: 20.5rem;
+  margin: 0 auto 6rem auto;
+  z-index: 1;
+  position: relative;
+}
+.img-face {
+    border-radius: 0.5rem;
+    width: 20.5rem;
+    z-index: 1;
+    box-shadow: 6px 25px 20px 0px  rgba(0, 0, 0, 0.1);
+}
+#img-quote {
+ position: absolute;
+ width: 5rem;
+ left: 7.5rem;
+ top: 24.5rem
+}
+#curve-bg-img {
+    position: absolute;
+    bottom: 0rem;
+    left: 0rem;
+    width: 25rem;
+}
+#img-behind-photo {
+    width: 26rem;
+    position:absolute;
+    z-index: -1;
+    top: -2.4rem;
+    left: -2rem;
+   
+}
+.about-text {
+  line-height: 1.8rem;
+  color: var(--DarkBlue);
+  font-size: 1.3rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: 300;
+}
+.name-job {
+    text-align: center;
+}
+.name-job p {
+    font-weight: 700;
+    font-size: 1.35rem;
+    margin-bottom: 0.35rem;
+}
+.name-job span {
+    color:var(--GrayishBlue);
+    font-size: 1.2rem;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 14rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

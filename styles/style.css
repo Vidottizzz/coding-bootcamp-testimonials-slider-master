@@ -47,7 +47,7 @@ body {
     width: 25rem;
 }
 #img-behind-photo {
-    width: 26rem;
+    width: 32rem;
     position:absolute;
     z-index: -1;
     top: -2.4rem;
@@ -82,3 +82,6 @@ body {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+/* // caroulsel testge  */
+
